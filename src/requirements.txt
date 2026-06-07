@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-dotenv
+qdrant-client
+PyMuPDF
+Pillow
+groq
+torch
+transformers

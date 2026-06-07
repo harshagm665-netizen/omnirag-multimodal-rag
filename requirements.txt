@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-dotenv
+python-multipart
+qdrant-client
+PyMuPDF
+Pillow
+groq

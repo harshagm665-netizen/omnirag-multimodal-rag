@@ -1,0 +1,47 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel/
+
+# Qdrant local data
+qdrant_data/
+
+# Temp uploads
+/tmp/
+
+# Agent / scaffolding artifacts
+.agent/
+tree.json
+update_*.py
+
+# Byte-compiled
+*.pyc
