@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 # Initialize Components
 parser = DocumentParser()
 embedder = ColpaliEmbedder(mock=True) # Mocked for local dev without GPU
-qdrant = QdrantStore(in_memory=True)
+qdrant = QdrantStore(in_memory=False)
 key_rotator = KeyRotator()
 rag_service = RAGService(embedder=embedder, qdrant=qdrant, key_rotator=key_rotator)
 
